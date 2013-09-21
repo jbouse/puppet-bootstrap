@@ -1,5 +1,5 @@
 class{'puppet::repo::puppetlabs': }
-Class['puppet::repo::puppetlabs'] -> Package <| |>
+Class['puppet::repo::puppetlabs']->Package <| |>
 package {
   'librarian-puppet':
     ensure   => latest,
